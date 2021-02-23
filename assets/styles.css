@@ -45,19 +45,25 @@ font-family: 'Roboto', sans-serif; */
 .profile, .education, .experience, .portfolio, .contact-me{
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+}
+
+.education{
+    background-color: #E7EBEE;
 }
 
 
 
 .empty-space{
     width: 18%;
-    height: 100px;
+    height: 100%;
     background-color: rgb(107, 128, 128);
 }
 
-.profile-box{
+.profile-box, .education-box{
     width: 82%;
-    height: 100px;
+    height: 100%;
+    
     /* background-color: rgb(76, 179, 17); */
 }
 
@@ -94,6 +100,24 @@ font-family: 'Roboto', sans-serif; */
 .core-values .core-value-items .core-value-list{
     width: 25vw;
 }
+
+
+/* styling for the education pages */
+.education-list .school, .level, .duration{
+
+    font-size: 25px;
+}
+.education-list .degree{
+    color: blue;
+    font-size: 30px;
+    font-family: Damion;
+}
+
+.education-list{
+    margin-bottom: 30px;
+}
+
+
 
 @media (max-width: 600px){
     .empty-space{
